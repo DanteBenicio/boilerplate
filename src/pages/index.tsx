@@ -6,9 +6,7 @@ type HomeProps = {
 
 const bar = 'Hello';
 
-const new = 'Bye'
-
-const asda = 'adasd'
+const asda = 'adasd';
 
 const Home: NextPage<HomeProps> = ({ title }) => {
   return (
