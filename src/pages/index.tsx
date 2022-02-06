@@ -4,10 +4,6 @@ type HomeProps = {
   title: string
 }
 
-const bar = 'Hello';
-
-const asda = 'adasd';
-
 const Home: NextPage<HomeProps> = ({ title }) => {
   return (
     <>
