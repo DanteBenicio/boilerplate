@@ -4,6 +4,8 @@ type HomeProps = {
   title: string
 }
 
+const bar = 'Hello';
+
 const Home: NextPage<HomeProps> = ({ title }) => {
   return (
     <>
