@@ -1,3 +1,11 @@
 {
+  "plugins": [ // add settings styled-components and enabling ssr (server-side-rendering)
+    [
+      "babel-plugin-styled-components",
+      {
+        "ssr": true
+      }
+    ]
+  ],
   "presets": ["next/babel", "@babel/preset-typescript"]
 }
