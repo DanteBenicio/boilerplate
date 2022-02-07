@@ -1,16 +1,11 @@
-import type { NextPage } from 'next';
+import Main from 'components/Main';
 
 type HomeProps = {
   title: string
 }
 
-const Home: NextPage<HomeProps> = ({ title }) => {
+export default function Home({ title }: HomeProps) {
   return (
-    <>
-      <h1>Hello World</h1>
-      <p>{title}</p>
-    </>
+    <Main />
   );
-};
-
-export default Home;
+}
